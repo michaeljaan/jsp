@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Resume</title>
+</head>
+<body>
+<h2>Resume Application</h2>
+<form action="myserve" method="get">
+
+First Name:<input type="text" name="FirstName"/> <br/>
+
+Last Name:<input type="text" name="LastName"/> <br/>
+
+Gender:<input type="radio" name="gender" value=male checked> Male<br/>
+
+Gender:<input type="radio" name="gender" value=Female checked> Female<br/>
+
+Highest Qualification:<select name="qualifiaction">
+<option value="post graduate">ME(Post Graduation)</option>
+<option value="Under Graduate">BE(Under Graduation)</option>
+<option value="+2">PUC</option>
+<option value="HighSchool">SSLC</option>
+</select><br/>
+
+Date of Birth:<input type="date" name="dob"><br/>
+
+Hobbies:<select multiple name="hobbies">
+<option value="sing">Singing</option>
+<option value="Dance">Dancing</option>
+<option value="Cricket">Cricket</option>
+<option value="Drawing">portrait</option>
+<option value="Tennis">Tennis</option>
+<option value="Craft">Craft</option>
+</select><br/>
+
+Address:<textarea rows="4" cols="40" name="address"> Enter Address </textarea><br/>
+
+Skills:<input type="checkbox" name="Skill" value=c,c++>C, C++<br/>
+<input type="checkbox" name="Skill" Value=Python,cobalt>Python, cobalt<br/>
+<input type="checkbox" name="Skill" value=java,js>java, Js<br/>
+
+Email Address:<input type="email" name="email"><br/>
+
+Web site:<input type="url" name="Website"><br/>
+
+Contact number:<input type="tel" name="contactnumber"><br/>
+
+Description:<textarea rows="4" cols="40" name="address"> Description here </textarea><br/>
+<input type="Submit" value="Submit"/>
+<input type="reset" value="clear"/>
+
+</form>
+
+</body>
+</html>
